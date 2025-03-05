@@ -27,6 +27,8 @@ var
   version: integer;
   placecount: integer;
   place:array[1..maxplaces] of integer;
+
+
   { /---------------- MAIN VARS  ------------------ }
 
 implementation
