@@ -5,11 +5,19 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
   System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, IniFiles;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, IniFiles, Vcl.ExtCtrls, Vcl.Imaging.jpeg;
 
 type
   TFMain = class(TForm)
     Button1: TButton;
+    GroupBox1: TGroupBox;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label5: TLabel;
+    Label4: TLabel;
+    Label6: TLabel;
+    Image1: TImage;
     procedure Button1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
